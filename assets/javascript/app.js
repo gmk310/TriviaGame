@@ -1,28 +1,34 @@
 $(document).ready(function() {
   var questions = [
     {
-      question: "What is the color of the sky?",
-      choices: ["blue", 5, 10, 15, 20],
+      question: "World War 1 began in which year?",
+      choices: [1923, 1914, 1955, 1982, 1921],
       correctAnswer: 2
     },
     {
-      question: "What is 3*6?",
-      choices: [3, 6, 9, 12, 18],
+      question: "Hitler was born in what country?",
+      choices: ["France", "Poland", "Germany", "Austria", "USA"],
       correctAnswer: 4
     },
     {
-      question: "What is 8*9?",
-      choices: [72, 99, 108, 134, 156],
-      correctAnswer: 0
+      question: "Where was John F. Kennedy assasinated?",
+      choices: ["Dallas", "Austin", "LA", "Kansas City", "New Orleans"],
+      correctAnswer: 1
     },
     {
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
+      question: "Who was the first explorer to reach China?",
+      choices: [
+        "Magellan",
+        "Sir Frances Drake",
+        "Marco Polo",
+        "Chris Columbus",
+        "Ben Franklin"
+      ],
       correctAnswer: 3
     },
     {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
+      question: "Which is the 49th state?",
+      choices: ["Oregon", "Colorado", "Kentucky", "Alaska", "Hawaii"],
       correctAnswer: 4
     }
   ];
